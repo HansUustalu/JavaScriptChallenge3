@@ -1,9 +1,68 @@
 .mapbox{
+
+  font-family: source-code-pro, monospace;
+
+  font-weight: 700;
+
+  font-style: normal;
+
+
   border: black 30px;
 }
 #te{
-color:red;
+
+  font-family: source-code-pro, monospace;
+
+  font-weight: 700;
+
+  font-style: normal;
+
+
+color:white;
+}
+#search{
+  background-color:#32527b;
+  color: white;
+  width: 40%;
+  font-size: 90px;
+  height: 100px;
+}
+.font{
+
+font-family: source-code-pro, monospace;
+
+font-weight: 700;
+color:white;
+font-style: normal;
+
+
+}
+body{
+  background-image: url("../images/IMG_65.jpg");
 }
 .content{
-  width: 100%; 
+
+  width: 90%;
+}
+#curretweather{
+  margin-left: 40%;
+border: 10px solid blue;
+background-color: blue;
+margin-right: 40%;
+font-size: 30px;
+padding: 5%;
+color:white;
+border-radius: 20px;
+}
+
+.fade-in {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }

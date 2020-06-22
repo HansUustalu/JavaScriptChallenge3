@@ -48,7 +48,8 @@ var searchButton = document.querySelector("#search");
 searchButton.addEventListener("click", ()=>{
   console.log("button pressed");
 	fetchImageBlock(`https://api.nasa.gov/EPIC/archive/natural/2019/05/30/png/epic_1b_20190530011359.png?api_key=Vy62DcFje8an9sDGFYYv1CjMWBjm4mBcqxMlh7F8`)
-
+document.getElementByClass("content").style.width = "100px";
+ $("img").toggleClass("fade-in");
 })
 
 var myImage = document.querySelector('#img-selector');
